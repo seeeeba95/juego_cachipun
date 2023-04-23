@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cachipún</title>
+</head>
+
+<body>
+
+    <div>
+        <h3>Selecciona tu opcion en el cachipún</h3>
+
+        <form action="#" method="post">
+
+                <input type="number" id="nveces" placeholder="Ingrese el numero de veces que desea jugar">
+                <br>
+                <label for="lista" id=" cachipunOpt">Cachipún</label>
+
+                <select id="cachipunOpt">  
+                    <option type="text" value="piedra">Piedra</option>  
+                    <option type="text" value="papel">Papel</option> 
+                    <option type="text" value="tijera">Tijera</option> 
+                </select>
+                    
+                    
+            </form>
+<!--
+        <form class="container_tabla1" id="tabla1">
+
+        <h1>Cachipun</h1>
+
+        <label for="fname">Elije cuantas veces quieres jugar:</label>
+
+        <input type="number" class="input_number" id="veces"></input><br>&nbsp;
+
+        <p class="select"> Selecciona una opcion: </p>
+
+        <button type="button" class="button" id="cachipunOpt" value="0">Piedra</button>
+
+        <button type="button" class="button" id=" cachipunOpt" value="1">Papel</button>
+
+        <button type="button" class="button" id=" cachipunOpt" value="2">Tijera</button>
+
+        <button type="button" 
+            class="button" value="calcular" onclick="cachipun()">Enviar</button>
+
+        <h2 id="Resultado">Resutado:</h2>
+        <h2 id="Resultado1"></h2>
+
+
+        </form>
+    -->
+
+    <input type="button" name="Jugar contra la maquina" id="enviar" value="calcular" onclick="cachipun()">
+    </div>
+
+    <p id="resultado"></p>
+    <p id="resultado1"></p>
+    <p id="resultado2"></p>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
+
+<!-- opciones con letras
+                <select id="cachipunOpt">  
+                    <option type="text" value="piedra">Piedra</option>  
+                    <option type="text" value="papel">Papel</option> 
+                    <option type="text" value="tijera">Tijera</option> 
+                </select>
+opcion con numeros
+                <select id="cachipunOpt">  
+                    <option type="number" value="0">Piedra</option>  
+                    <option type="number" value="1">Papel</option> 
+                    <option type="number" value="2">Tijera</option> 
+                </select>
+-->
