@@ -1,0 +1,99 @@
+body {
+    background-image: url(../img/pueblando_ando_piedra_papel_tijera_01.png);
+    font-family: 'Sigmar', cursive;
+
+}
+
+#tabla1 {
+
+    background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+
+    border: black solid 2px;
+
+    width: 40%;
+
+    padding: 5px;
+
+    justify-content: center;
+
+    border-radius: 2%;
+
+    min-height: 80vh;
+
+    margin: 50px auto;
+
+    text-align: center;
+
+}
+
+.input_number {
+
+    padding: 2px;
+
+    width: 50px;
+
+    border: grey solid 1px;
+
+}
+
+.boton {
+
+    font-family: 'Sigmar', cursive;
+
+    background-color: black;
+
+    color: gainsboro;
+
+    border: 1px solid white;
+
+    border-radius: 6px;
+
+    width: 100px;
+
+    padding: 3px;
+
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+
+}
+
+#resultado1 {
+
+    font-size: 1.5rem;
+
+    margin-top: 50px;
+
+}
+
+label {
+
+    font-size: 1.5rem;
+
+    margin-top: 30px;
+
+}
+
+.resultado2 {
+
+
+    font-size: 2rem;
+
+}
+
+h3 {
+
+    margin-top: 30px;
+
+    font-size: 2rem;
+}
+
+.calcular {
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    width: 130px;
+
+}
